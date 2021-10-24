@@ -1,0 +1,81 @@
+ <html>
+    <head>
+        <title>Formulario de prueba de HTML5</title>
+    </head>
+    <body>
+        <h3>Formulario Prueba</h3>
+       	<form action="formulario2.1.html" method="GET" enctype="multipart/form-data">
+           
+           		Nombre: <input type="text" name="nombre" maxlength="25" value="" autofocus="autofocus" required>
+            		<br/>
+			Correo Electrónico: <input type="email" name="email" required/>
+			<br/>
+			URL: <input type="url" name="url"  placeholder="Escribe la URL de tu página web personal"/>
+			<br/>
+			Fecha: <input type="date" name="fecha"/>
+			<br/>
+			Tiempo: <input type="time" name="tiempo"/>
+			<br/>
+			Fecha y hora: <input type="datetime" name="fechahora"/>
+			<br/>
+			Mes: <input type="month" name="mes"/>
+			<br/>
+			Semana: <input type="week" name="semana"/>
+			<br/>
+			Numero: <input type="number" name="numero" min="-10" max="10"/>
+			<br/>
+			Telefono: <input type="tel" name="telefono"/>
+			<br/>
+			Termino de busqueda: <input type="search" name="busqueda"/>
+			<br/>
+			Color favorito: <input type="color" name="color"/>
+			<br/>
+			Color del pelo: <br/>
+			<input type="radio" name="boton" value="1">Negro<br>
+			<input type="radio" name="boton" value="2">Rojo<br>
+			<input type="radio" name="boton" value="3">Castaño<br>
+			<input type="radio" name="boton" value="2">Blanco<br>
+			<br/>
+			Nacionalidad: <br/>
+			<input type="radio" name="boto" value="1">España<br>
+			<input type="radio" name="boto" value="2">Extranjero<br>
+			<br/>
+			Navegadores instalados: <br/>
+			<input type="checkbox" id="navegador1" name="navegador1" value="Firefox">
+  			<label for="navegador1"> Firefox</label><br>
+  			<input type="checkbox" id="navegador2" name="navegador2" value="Chrome">
+  			<label for="navegador2"> Chrome</label><br>
+  			<input type="checkbox" id="navegador3" name="navegador3" value="Edge">
+  			<label for="navegador3"> Edge</label><br><br>
+  			<br/>
+  			¿De que provincia eres de Andalucia?: <br/>
+  			<select name="Provincia">
+   				<option value="1">Cádiz</option> 
+   				<option value="2">Almeria</option> 
+   				<option value="3">Huelva</option>
+   				<option value="10">Granada</option> 
+   				<option value="11">Jaén</option> 
+   				<option value="12">Málaga</option>
+   				<option value="13">Sevilla</option>
+   				<option value="14">Córdoba</option> 
+			</select>
+			<br/>
+			<p>Contraseña: <input type="password" name="contraseña" pattern="[A-Za-z0-9]{8,16}" required></p>
+			<p><input type="submit" value="Enviar datos"></p>
+			<br/>
+			<input type="reset" value="Borrar">
+			<br/>
+			<button onclick="location.href='index.html'">Pagina de INICIO</button>
+			<br/>
+			Boton de envio: <input type="submit" name="enviar" value="Guardar cambios"/>
+		</form>
+	</body>
+</html>
+
+			
+			
+			
+			
+  			
+
+ 

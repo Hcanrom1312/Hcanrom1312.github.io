@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title> EXTRA TIME</title>
+</head>
+<body>
+    <header>
+    <center>
+    <h1> EXTRA TIME contactos</h1>
+    	<p><img src="imagenes/logosoccernews.jpg" width="1281" height="332" /><p>
+    	</center>
+    	<br/>
+	<h3>Formulario Prueba</h3>
+       	<form action="PaginaPrincipal.html" method="GET" enctype="multipart/form-data">
+			Nombre: <input type="text" name="nombre" maxlength="25" value="" autofocus="autofocus" required>
+			<br/>
+			Correo Electrónico: <input type="email" name="email" required/>
+			<br/>
+			Nacionalidad: <br/>
+			<input type="radio" name="boto" value="1">España<br>
+			<input type="radio" name="boto" value="2">Extranjero<br>
+			<br/>
+			Navegadores instalados: <br/>
+			<input type="checkbox" id="navegador1" name="navegador1" value="Firefox">
+  			<label for="navegador1"> Firefox</label><br>
+  			<input type="checkbox" id="navegador2" name="navegador2" value="Chrome">
+  			<label for="navegador2"> Chrome</label><br>
+  			<input type="checkbox" id="navegador3" name="navegador3" value="Edge">
+  			<label for="navegador3"> Edge</label><br><br>
+  			<br/>
+			¿De que provincia eres de Andalucia?: <br/>
+  			<select name="Provincia">
+   				<option value="1">Cádiz</option> 
+   				<option value="2">Almeria</option> 
+   				<option value="3">Huelva</option>
+   				<option value="10">Granada</option> 
+   				<option value="11">Jaén</option> 
+   				<option value="12">Málaga</option>
+   				<option value="13">Sevilla</option>
+   				<option value="14">Córdoba</option> 
+			</select>
+			<br/>
+			Descripcion: <br/>
+			<p><textarea name="descripcion" placeholder="Algo que quieras añadir"></textarea></p>
+			<br/>
+			Boton de envio: <input type="submit" name="enviar" value="Guardar cambios"/>
+			<br/>
+			<input type="reset" value="Borrar">
+			<br/>
+			<button onclick="location.href='PaginaPrincipal.html'">Pagina de INICIO</button>
+		</form>
+	</header>
+	<footer>
+            <p>&#169; 22 de Octubre de 2021 HUGO CANTO ROMERO</p> 
+        </footer>
+</body>
+</html>
